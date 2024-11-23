@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SDA Nicolo Rossi Assignment 2 - 2024 </string>
+    <string name="intent_camera_text_view">Implicit Intent: Open Camera</string>
+    <string name="intent_picture_text_view">Implicit Intent: View Picture</string>
+    <string name="intent_callActivity_text_view">Explicit Intent: Call an activity</string>
+    <string name="button_send">SEND</string>
+    <string name="button_save">SAVE</string>
+    <string name="placeholder_to">To:</string>
+    <string name="placeholder_subject">Subject:</string>
+    <string name="placeholder_compose">Compose:</string>
+    <string name="error_data_invalid">Error data inserted not complete</string>
+</resources>
