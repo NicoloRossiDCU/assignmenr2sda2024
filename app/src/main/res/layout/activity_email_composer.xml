@@ -17,7 +17,9 @@
         android:hint="@string/placeholder_to"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/editTextSubject"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="emailAddress"
+        />
 
     <EditText
         android:id="@+id/editTextSubject"
@@ -29,7 +31,9 @@
         android:hint="@string/placeholder_subject"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="subject"
+        />
 
     <EditText
         android:id="@+id/editTextContent"
@@ -42,7 +46,9 @@
         android:hint="@string/placeholder_compose"
         android:inputType="textMultiLine"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextSubject" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextSubject"
+        android:autofillHints="message"
+        />
 
     <Button
         android:id="@+id/button2"
