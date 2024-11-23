@@ -19,13 +19,15 @@ public class EmailComposerActivity extends AppCompatActivity {
 
     public void save(View view) {
         Intent intent = new Intent(this, MainActivity.class);
+
         EditText editTextTo = (EditText) findViewById(R.id.editTextTo);
         EditText editTextSubject = (EditText) findViewById(R.id.editTextSubject);
         EditText editTextContent = (EditText) findViewById(R.id.editTextContent);
-
+        // get the txt used for email
         String messageTo = editTextTo.getText().toString();
         String messageSubject = editTextSubject.getText().toString();
         String messageContent = editTextContent.getText().toString();
+
         intent.putExtra(MESSAGE_TO, messageTo);
         intent.putExtra(MESSAGE_SUBJECT, messageSubject);
         intent.putExtra(MESSAGE_CONTENT, messageContent);
